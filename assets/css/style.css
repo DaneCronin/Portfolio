@@ -5,7 +5,7 @@
 }
 
 :root {
-    --font-family: 'Helvetica';
+    --font-family: Helvetica, Arial, sans-serif;
     --primary-bgcolor: #fff;
     --font-color: #999;
      
@@ -18,15 +18,22 @@ body {
 /* Apply Styles to <header> */
 
 header {
-
-    background-color: #202020;
+    padding: 20px 35px;
+    background-color: #151515;
     
+}
 
+header h1 {
+    display: inline;
+    font-size: 36px;
+    padding: 10px;
+    background-color: #575757;
 }
 
 /* Apply Styles to Header Elements */
 
-header h1 a {
+header a {
+    text-decoration: none;
     font-family: var(--font-family);
     color: #999;
     font-weight: bold;
@@ -37,10 +44,15 @@ header h1 a {
 /* Apply Style to Navigation Bar */
 
 header nav {
-    
-   
+
+    float: right;
+    margin: 7px 0;
  
 }
+
+header nav ul li {
+    display: inline;
+  }
 
 header nav ul {
     background-color: teal;
@@ -48,7 +60,9 @@ header nav ul {
 
 header nav ul li a {
     background-color: teal;
-   
+    margin: 0 20px;
+    font-weight: lighter;
+    font-size: 18px;
    
 }
 
@@ -63,7 +77,6 @@ header nav li a {
 /* Hero Style Start */
 
 .hero {
-    
     background-image: url("../images/Indian\ Peaks\ Sunset\ 2.jpg");
     background-size: cover;
     background-position: center;
@@ -76,6 +89,7 @@ header nav li a {
 section {
     padding: 10px;
     margin: 20px;
+    background-color: aliceblue;
 }
 
 
@@ -97,8 +111,14 @@ footer {
     color: var(--font-color);
     width: 100%;
     background-color: var(--primary-bgcolor);
+    text-align: right;
     
+}
 
+footer div {
+    float: right;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 
