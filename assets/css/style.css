@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+/* Apply Styles to <header> */
+
+header {
+
+}
+
+/* Apply Styles to Header Elements */
+
+header h1 {
+
+}
+
+/* Apply Style to Navigation Bar */
+
+header nav {
+
+}
+
+/* Hero Style Start */
+
+.hero {
+
+}
+
+/* About Section Styling */
+
+
+
+/* Work Section Styling */
+
+
+
+/* Contact Section Styling */
+
+
+/* Footer Styling */
+
+footer {
+
+}
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP AND MOBILE */
+
+@media screen and (max-width: 980px) {
+    /* this will apply to any screen smaller than 980px */
+
+
+}
+
+
+@media screen and (max-width: 575px) {
+    /* this will apply to any screen smaller than 575px */
+
+    
+}
