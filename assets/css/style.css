@@ -15,11 +15,17 @@ body {
     background-color: #575757;
 }
 
+section {
+    padding: 45px;
+}
+
 /* Apply Styles to <header> */
 
 header {
+    position: fixed;
     padding: 20px 35px;
     background-color: #151515;
+    width: 100%;
     
 }
 
@@ -44,7 +50,7 @@ header a {
 /* Apply Style to Navigation Bar */
 
 header nav {
-
+    
     float: right;
     margin: 7px 0;
  
@@ -78,16 +84,19 @@ header nav li a {
 
 .hero {
     background-image: url("../images/Indian\ Peaks\ Sunset\ 2.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;
-
+    width: auto;
+    margin: 0;
+ 
 }
 
 
 /* Projects Section Styling */
 
 section {
-    padding: 10px;
+    padding: 45px;
     margin: 20px;
     background-color: aliceblue;
 }
