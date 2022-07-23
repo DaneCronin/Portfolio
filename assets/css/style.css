@@ -5,47 +5,99 @@
 }
 
 :root {
-    
+    --font-family: 'Helvetica';
+    --primary-bgcolor: #fff;
+    --font-color: #999;
+     
+}
+
+body {
+    background-color: #575757;
 }
 
 /* Apply Styles to <header> */
 
 header {
 
+    background-color: #202020;
+    
+
 }
 
 /* Apply Styles to Header Elements */
 
-header h1 {
-
+header h1 a {
+    font-family: var(--font-family);
+    color: #999;
+    font-weight: bold;
+    font-size: 36px;
+    
 }
 
 /* Apply Style to Navigation Bar */
 
 header nav {
+    
+   
+ 
+}
+
+header nav ul {
+    background-color: teal;
+}
+
+header nav ul li a {
+    background-color: teal;
+   
+   
+}
+
+
+header nav li a {
+    color: #999;
+    font-family: var(--font-family);
+   
 
 }
 
 /* Hero Style Start */
 
 .hero {
+    
+    background-image: url("../images/Indian\ Peaks\ Sunset\ 2.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
+
+
+/* Projects Section Styling */
+
+section {
+    padding: 10px;
+    margin: 20px;
+}
+
 
 /* About Section Styling */
 
 
-
-/* Work Section Styling */
 
 
 
 /* Contact Section Styling */
 
 
+
 /* Footer Styling */
 
 footer {
+    padding: 40px 35px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    width: 100%;
+    background-color: var(--primary-bgcolor);
+    
 
 }
 
@@ -63,5 +115,5 @@ footer {
 @media screen and (max-width: 575px) {
     /* this will apply to any screen smaller than 575px */
 
-    
+
 }
