@@ -12,7 +12,16 @@
 }
 
 body {
-    background-color: #575757;
+    background-color: #767676;
+    color: var(--font-color);
+}
+
+.section-title h2 {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    text-align: center;
+    font-weight: bold;
+
 }
 
 
@@ -85,7 +94,7 @@ header nav li a {
     background-size: cover;
     background-position: center;
     width: 100%;
-    margin: 0;
+    
  
 }
 
@@ -105,22 +114,30 @@ header nav li a {
 /* About Section Styling */
 
 .about-section {
-    width: 80%;
+    width: 100%;
     padding: 45px;
     margin: 20px 0;
     background-color: aquamarine;
 }
 
-.about-section img {
-    width: 35%;
-    float: left;
-    padding: 0 25px;
+.about {
+    width: 900px;
+    margin: 0 auto 50px auto;
 
 }
 
 
-.about-section p {
+.about img {
+    width: 35%;
+    float: left;
+    padding: 15px;
+    background-color: rgb(47, 38, 6);
+}
+
+
+.about p {
     text-align: left;
+    padding: 10px;
     
 }
 
