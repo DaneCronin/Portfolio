@@ -15,9 +15,7 @@ body {
     background-color: #575757;
 }
 
-section {
-    padding: 45px;
-}
+
 
 /* Apply Styles to <header> */
 
@@ -29,14 +27,15 @@ header {
     
 }
 
+/* Apply Styles to Header Elements */
+
 header h1 {
     display: inline;
-    font-size: 36px;
     padding: 10px;
     background-color: #575757;
 }
 
-/* Apply Styles to Header Elements */
+
 
 header a {
     text-decoration: none;
@@ -49,8 +48,7 @@ header a {
 
 /* Apply Style to Navigation Bar */
 
-header nav {
-    
+header nav {   
     float: right;
     margin: 7px 0;
  
@@ -75,8 +73,7 @@ header nav ul li a {
 
 header nav li a {
     color: #999;
-    font-family: var(--font-family);
-   
+    font-family: var(--font-family);  
 
 }
 
@@ -87,38 +84,82 @@ header nav li a {
     height: 600px;
     background-size: cover;
     background-position: center;
-    width: auto;
+    width: 100%;
     margin: 0;
  
 }
 
+/* Hero Style END */
+
 
 /* Projects Section Styling */
 
-section {
+.projects-section {
+    width: 100%;
     padding: 45px;
-    margin: 20px;
+    margin: 20px 0;
     background-color: aliceblue;
 }
 
 
 /* About Section Styling */
 
+.about-section {
+    width: 80%;
+    padding: 45px;
+    margin: 20px 0;
+    background-color: aquamarine;
+}
 
+.about-section img {
+    width: 35%;
+    float: left;
+    padding: 0 25px;
+
+}
+
+
+.about-section p {
+    text-align: left;
+    
+}
 
 
 
 /* Contact Section Styling */
+
+.contact-section {
+    width: 100%;
+    padding: 45px;
+    margin: 20px 0;
+    background-color: azure;
+
+}
+
+
+
+
+
+/* Resume Section Styling */
+
+.resume-section {
+    width: 100%;
+    padding: 45px;
+    margin: 20px 0;
+    background-color: goldenrod;
+    text-align: center;
+}
+
 
 
 
 /* Footer Styling */
 
 footer {
+    width: 100%;
     padding: 40px 35px;
     font-family: var(--font-family);
     color: var(--font-color);
-    width: 100%;
     background-color: var(--primary-bgcolor);
     text-align: right;
     
