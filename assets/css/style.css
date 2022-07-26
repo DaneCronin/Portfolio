@@ -199,11 +199,10 @@ header nav li a {
 
 
 .social-contact {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0 30px;
     display: inline-flex;
-    background-color: #767676;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     width: 70%;
 }
 
@@ -218,8 +217,8 @@ header nav li a {
 }
 
 .contact-info {
-    width: 200px;
     border-right: 3px solid #767676;
+    padding-right: 16px;
     
 }
 
@@ -252,7 +251,11 @@ header nav li a {
 
 .resume-section p {
     display: flex;
-    
+    margin: 0 auto 0 30px;
+    font-size: 24px;
+    font-style: italic;
+
+
 }
 
 
