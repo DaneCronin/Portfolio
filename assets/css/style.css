@@ -108,22 +108,38 @@ header nav li a {
     width: 100%;
     padding: 30px 45px;
     margin: 20px 0;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     overflow: auto;
 }
 
 .projects-section div h2 {
-    float: left;
-    padding: 25px 45px 15px 45px;
-    border-right: 3px solid var(--font-color);
-    background-color: #151515;
-   
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    height: 600px;
+    padding-right: 10px;
+    border-right: 3px solid #767676;
 }
 
 .projects-section p {
     padding: 10px 35px;
-    background-color: #151515;
+    background-color: white;
+}
+
+.run-buddy img{
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid #767676;
+    opacity: .7
+}
+
+.photo-portfolio img{
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #767676;
+    opacity: .7;
+    
 }
 
 
@@ -136,7 +152,7 @@ header nav li a {
     width: 100%;
     padding: 20px;
     margin: 15px 0;
-    background-color: aquamarine;   
+    background-color: rgb(255, 255, 255);   
     
 }
 
@@ -235,7 +251,7 @@ header nav li a {
     width: 100%;
     padding: 20px;
     margin: 15px 0;
-    background-color: goldenrod;
+    background-color: rgb(255, 255, 255);
     
 }
 
