@@ -19,7 +19,6 @@ body {
 .section-title h2 {
     font-family: var(--font-family);
     color: var(--font-color);
-   
 
 }
 
@@ -85,6 +84,8 @@ header nav li a {
     font-family: var(--font-family);  
 
 }
+
+
 
 /* Hero Style Start */
 
@@ -181,6 +182,11 @@ header nav li a {
     margin: 20px 0;
     background-color: azure;
 
+}
+
+.contact-section a {
+    font-family: var(--font-family);
+    color: var(--font-color);
 }
 
 
