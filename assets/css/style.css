@@ -132,10 +132,10 @@ header nav li a {
 /* About Section Styling */
 
 .about-section {
-    display: inline-block;
+    display: flex;
     width: 100%;
-    padding: 25px 15px;
-    margin: 20px 0;
+    padding: 20px;
+    margin: 15px 0;
     background-color: aquamarine;   
     
 }
@@ -144,15 +144,18 @@ header nav li a {
     margin: 0 auto 30px auto;
     overflow: auto;
     
-    
 }
 
 .about-section div h2 {
-    float: left;
-    padding: 25px 45px 15px 45px;
-    border-right: 3px solid var(--font-color);
-  
-}
+        display: flex;
+        align-items: flex-end;
+        width: 200px;
+        height: 200px;
+        padding-right: 10px;
+        border-right: 3px solid #767676;
+        
+    }
+
 
 
 
@@ -181,9 +184,10 @@ header nav li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: auto;
     width: 100%;
-    padding: 45px;
-    margin: 20px 0;
+    padding: 25px;
+    margin: 15px 0;
     background-color: azure;
 
 }
@@ -195,34 +199,28 @@ header nav li a {
 
 
 .social-contact {
-    display: flex;
+    margin: 0 auto 30px auto;
+    display: inline-flex;
     background-color: #767676;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
-  
+    width: 70%;
+}
 
+.social-contact a {
+    padding: 5px;
 }
 
 .social-contact h3 {
-    margin-bottom: 40px;
+    padding: 0 5px;
     font-size: 24px;
     font-weight: bold;
-    color: aqua;
 }
 
 .contact-info {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100px;
-    padding-right: 10px;
+    width: 200px;
     border-right: 3px solid #767676;
     
-}
-
-.contact-info h2 {
-    padding: 0 5px;
-    background-color: aqua;
 }
 
 
@@ -234,13 +232,28 @@ header nav li a {
 /* Resume Section Styling */
 
 .resume-section {
+    display: flex;
     width: 100%;
-    padding: 45px;
-    margin: 20px 0;
+    padding: 20px;
+    margin: 15px 0;
     background-color: goldenrod;
-    text-align: center;
+    
 }
 
+.resume-section h2 {
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    height: 100px;
+    padding-right: 10px;
+    border-right: 3px solid #767676;
+    
+}
+
+.resume-section p {
+    display: flex;
+    
+}
 
 
 
