@@ -133,6 +133,7 @@ header nav li a {
     height: 100%;
     padding-right: 10px;
     border-right: 3px solid #767676;
+    font-family: var(--font-family);
 }
 
 .projects-column {
@@ -205,7 +206,7 @@ header nav li a {
         height: 200px;
         padding-right: 10px;
         border-right: 3px solid #767676;
-        
+        font-family: var(--font-family);
     }
 
 
@@ -224,6 +225,7 @@ header nav li a {
     padding: 10px 25px;
     line-height: 1.2;
     font-size: 17px;
+    font-family: var(--font-family);
     
 }
 
@@ -231,6 +233,10 @@ header nav li a {
 
 
 /* Contact Section Styling */
+
+.contact-section .section-title {
+    font-family: var(--font-family);
+}
 
 .contact-section {
     display: flex;
@@ -266,6 +272,7 @@ header nav li a {
     padding: 0 5px;
     font-size: 24px;
     font-weight: bold;
+    font-family: var(--font-family);
 }
 
 .contact-info {
@@ -299,6 +306,7 @@ header nav li a {
     height: 100px;
     padding-right: 10px;
     border-right: 3px solid #767676;
+    font-family: var(--font-family);
     
 }
 
