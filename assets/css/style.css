@@ -28,18 +28,19 @@ body {
 
 header {
     position: fixed;
-    padding: 20px 35px;
-    background-color: #151515;
+    padding: 10px 15px;
+    background-color: #ffffff;
     width: 100%;
+    z-index: 9999;
     
 }
 
 /* Apply Styles to Header Elements */
 
 header h1 {
-    display: inline;
-    padding: 10px;
-    background-color: #575757;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
    
 }
 
@@ -57,29 +58,37 @@ header a {
 /* Apply Style to Navigation Bar */
 
 header nav {   
+    display: flex;
     float: right;
-    margin: 7px 0;
+    margin: 5px 0;
  
 }
 
 header nav ul li {
     display: inline;
+    padding: 5px;
+    
   }
 
 header nav ul {
     background-color: teal;
+    
 }
 
 header nav ul li a {
+    display: inline-flex;
+    justify-content: center;
     background-color: teal;
     margin: 0 15px;
     font-weight: lighter;
-    font-size: 18px;
-   
+    font-size: 14px;
+ 
 }
 
 
 header nav li a {
+    display: flex;
+    justify-content: center;
     color: #999;
     font-family: var(--font-family);  
 
