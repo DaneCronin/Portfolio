@@ -130,8 +130,8 @@ header nav li a {
 
 .projects-section div h2 {
     display: flex;
-    align-items: flex-end;
-    width: 200px;
+    align-items: center;
+    width: 176px;
     height: 100%;
     padding-right: 10px;
     border-right: 3px solid #767676;
@@ -242,10 +242,10 @@ header nav li a {
 
 .about-section div h2 {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         width: 200px;
-        height: 200px;
-        padding-right: 10px;
+        height: 100%;
+        padding: 0 10px 0 30px;
         border-right: 3px solid #767676;
         font-family: var(--font-family);
     }
@@ -317,8 +317,13 @@ header nav li a {
 }
 
 .contact-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     border-right: 3px solid #767676;
     padding-right: 16px;
+    line-height: 1.5;
     
 }
 
@@ -342,10 +347,10 @@ header nav li a {
 
 .resume-section h2 {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     width: 200px;
     height: 100px;
-    padding-right: 10px;
+    padding: 0 10px 0 30px;
     border-right: 3px solid #767676;
     font-family: var(--font-family);
     
