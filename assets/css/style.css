@@ -76,6 +76,7 @@ header nav ul li {
 
 header nav ul {
     background-color: var(--secondary-color);
+    margin-top: 5px;
     
 }
 
@@ -119,7 +120,6 @@ header nav li a {
 
 .projects-section {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     padding: 30px 45px;
     margin: 25px 0;
