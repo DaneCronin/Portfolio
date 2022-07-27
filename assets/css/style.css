@@ -150,11 +150,12 @@ header nav li a {
     background-color: white;
 }
 
-.run-buddy h3 {
+.run-buddy h3 span {
     position: absolute;
     background-color: var(--secondary-color);
     padding: 10px;
     z-index: 2;
+    margin-top: 155px;
 }
 
 
@@ -168,11 +169,13 @@ header nav li a {
 }
 
 
-.photo-portfolio h3 {
+.photo-portfolio h3 span{
     position: absolute;
     background-color: var(--secondary-color);
     padding: 10px;
     z-index: 2;
+    margin-top: 155px;
+    
     
 }
 
@@ -200,6 +203,7 @@ header nav li a {
 }
 
 .more-work {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -386,8 +390,31 @@ footer div {
 }
 
 
-@media screen and (max-width: 575px) {
-    /* this will apply to any screen smaller than 575px */
+@media screen and (max-width: 768px) {
+    /* this will apply to any screen smaller than 768px */
+    
+      .section-title h3 {
+        flex: 1 100%;
+        text-align: center;
+      }
+    
+      article {
+        flex: 1 100%;
+    
+      }
+    
+      .projects-section img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      .header nav ul li {
+        flex: 1 50%;
+      }
+    
+    
 
 
 }
