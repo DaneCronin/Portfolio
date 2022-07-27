@@ -271,6 +271,39 @@ header nav li a {
 }
 
 
+/* Resume Section Styling */
+
+.resume-section {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: var(--secondary-color);
+    
+    
+}
+
+.resume-section h2 {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    padding: 0 10px 0 30px;
+    border-right: 3px solid #767676;
+    font-family: var(--font-family);
+    
+}
+
+.resume-section a {
+    
+    margin: 0 auto 0 30px;
+    font-size: 24px;
+    font-style: italic;
+    color: #999;
+    text-decoration: none;
+
+}
+
 
 
 /* Contact Section Styling */
@@ -328,43 +361,6 @@ header nav li a {
 }
 
 
-
-
-
-
-
-/* Resume Section Styling */
-
-.resume-section {
-    display: flex;
-    width: 100%;
-    padding: 20px;
-    margin: 15px 0;
-    background-color: var(--secondary-color);
-    
-    
-}
-
-.resume-section h2 {
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 100px;
-    padding: 0 10px 0 30px;
-    border-right: 3px solid #767676;
-    font-family: var(--font-family);
-    
-}
-
-.resume-section a {
-    
-    margin: 0 auto 0 30px;
-    font-size: 24px;
-    font-style: italic;
-    color: #999;
-    text-decoration: none;
-
-}
 
 
 
