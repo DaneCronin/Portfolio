@@ -138,6 +138,13 @@ header nav li a {
     font-family: var(--font-family);
 }
 
+.projects-section h3 span {
+    font-family: var(--font-family);
+    padding:10px;
+    background-color: var(--secondary-color);
+    z-index: 2;
+}
+
 .projects-column {
     margin: 0 auto 0 30px;
     display: flex;
@@ -154,10 +161,11 @@ header nav li a {
 
 .run-buddy h3 span {
     position: absolute;
-    background-color: var(--secondary-color);
+    
     padding: 10px;
-    z-index: 2;
+    
     margin-top: 155px;
+    
 }
 
 
@@ -173,9 +181,7 @@ header nav li a {
 
 .photo-portfolio h3 span{
     position: absolute;
-    background-color: var(--secondary-color);
     padding: 10px;
-    z-index: 2;
     margin-top: 155px;
     
     
@@ -207,19 +213,18 @@ header nav li a {
 .more-work {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex: wrap;
+    justify-content: flex-start;
     height: 200px;
     margin: 20px auto 0 30px;
     
   
 }
 
-.more-work h3 {
+.more-work h3 span{
     position: absolute;
-    background-color: var(--secondary-color);
-    padding: 10px;
-    z-index: 2;
+    margin-top: 55px;
+   
 }
 
 
