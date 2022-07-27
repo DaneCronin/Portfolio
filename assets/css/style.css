@@ -140,8 +140,8 @@ header nav li a {
     margin: 0 auto 0 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     width: 70%;
 }
 
