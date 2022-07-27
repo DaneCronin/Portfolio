@@ -151,13 +151,22 @@ header nav li a {
 }
 
 .run-buddy img{
+    position: relative;
     height: 400px;
     object-fit: cover;
     border: 3px solid #767676;
     opacity: .7
+    
+}
+
+.run-buddy h3 {
+    position: absolute;
+    background-color: var(--secondary-color);
+    padding: 10px;
 }
 
 .photo-portfolio img{
+    position: relative;
     height: 200px;
     object-fit: cover;
     border: 3px solid #767676;
@@ -165,21 +174,41 @@ header nav li a {
     
 }
 
+.photo-portfolio h3 {
+    position: absolute;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    
+}
+
 .run-buddy {
     display: flex;
     align-items: center;
     margin: 0 auto 0 30px;
-    background-color: black;
     width: 70%;
 }
 
 .photo-portfolio {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 30px 0 30px;
+    margin: 20px auto 0 30px;
 }
 
+.more-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    margin: 20px auto 0 30px;
+    
+  
+}
 
+.more-work h3 {
+    position: absolute;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
 
 
 /* About Section Styling */
