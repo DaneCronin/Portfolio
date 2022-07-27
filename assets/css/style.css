@@ -106,7 +106,7 @@ header nav li a {
     background-image: url("../images/Indian\ Peaks\ Sunset\ 2.jpg");
     height: 600px;
     background-size: cover;
-    background-position: center;
+    background-position: fixed;
     width: 100%;
     
  
