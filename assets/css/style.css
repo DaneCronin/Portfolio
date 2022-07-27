@@ -9,6 +9,7 @@
     --primary-bgcolor: #fff;
     --font-color: #999;
     --border: 3px solid #76767;
+    --secondary-color: teal;
      
 }
 
@@ -72,14 +73,14 @@ header nav ul li {
   }
 
 header nav ul {
-    background-color: teal;
+    background-color: var(--secondary-color);
     
 }
 
 header nav ul li a {
     display: inline-flex;
     justify-content: center;
-    background-color: teal;
+    background-color: var(--secondary-color);
     margin: 0 15px;
     font-weight: lighter;
     font-size: 14px;
@@ -262,7 +263,7 @@ header nav li a {
     width: 100%;
     padding: 20px;
     margin: 15px 0;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--secondary-color);
     
     
 }
@@ -277,11 +278,13 @@ header nav li a {
     
 }
 
-.resume-section p {
+.resume-section a {
     display: flex;
     margin: 0 auto 0 30px;
     font-size: 24px;
     font-style: italic;
+    color: #999;
+    text-decoration: none;
 
 
 }
