@@ -8,11 +8,12 @@
     --font-family: Helvetica, Arial, sans-serif;
     --primary-bgcolor: #fff;
     --font-color: #999;
+    --border: 3px solid #76767;
      
 }
 
 body {
-    background-color: #767676;
+    background-color: var(--primary-bgcolor);
     color: var(--font-color);
 }
 
@@ -120,6 +121,7 @@ header nav li a {
     background-color: rgb(255, 255, 255);
     text-align: center;
     overflow: auto;
+    border-bottom: 1px solid #767676;
 }
 
 .projects-section div h2 {
@@ -162,7 +164,7 @@ header nav li a {
     padding: 20px;
     margin: 15px 0;
     background-color: rgb(255, 255, 255);   
-    
+    border-bottom: 1px solid #767676;
 }
 
 .about {
@@ -213,8 +215,8 @@ header nav li a {
     width: 100%;
     padding: 25px;
     margin: 15px 0;
-    background-color: azure;
-
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #767676;
 }
 
 .contact-section a {
@@ -261,6 +263,7 @@ header nav li a {
     padding: 20px;
     margin: 15px 0;
     background-color: rgb(255, 255, 255);
+    
     
 }
 
