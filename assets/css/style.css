@@ -365,7 +365,7 @@ header nav li a {
 
 footer {
     width: 100%;
-    padding: 40px 35px;
+    padding: 35px 25px;
     font-family: var(--font-family);
     color: var(--font-color);
     background-color: var(--primary-bgcolor);
