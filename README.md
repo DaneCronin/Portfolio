@@ -19,5 +19,4 @@ built by Dane Cronin.
 
 ## Page Layout
 
-![image](https://user-images.githubusercontent.com/107944830/181164135-67be2cdb-4c56-4180-acbd-730340629177.png)
-
+![image](https://user-images.githubusercontent.com/107944830/187825527-c4d4a862-3fa8-439d-9646-d0128a3095bb.png)
