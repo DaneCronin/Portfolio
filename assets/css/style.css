@@ -178,6 +178,38 @@ header nav li a {
     
 }
 
+.run-buddy {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 30px;
+    width: 70%;
+}
+
+.beyond-the-concert img{
+    position: relative;
+    height: 400px;
+    width: 722px;
+    object-fit: cover;
+    border: 3px solid #767676;
+    opacity: .7;
+    margin-bottom: 7px;
+    
+}
+
+.beyond-the-concert h3 span {
+    position: absolute;
+    
+    padding: 10px;
+    
+    margin-top: 155px;
+    
+}
+.beyond-the-concert {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 30px;
+    width: 70%;
+}
 
 .photo-portfolio h3 span{
     position: absolute;
@@ -197,17 +229,12 @@ header nav li a {
 }
 
 
-.run-buddy {
-    display: flex;
-    align-items: center;
-    margin: 0 auto 0 30px;
-    width: 70%;
-}
+
 
 .photo-portfolio {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto 0 30px;
+    margin: 20px 15px 0 30px;
 }
 
 .more-work {

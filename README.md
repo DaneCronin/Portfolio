@@ -6,8 +6,8 @@ build a responsive and mobile-friendly website with HTML and CSS to create a por
 
 ## Built With
 
-HTML
-CSS
+* HTML
+* CSS
 
 ## Website
 
