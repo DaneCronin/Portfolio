@@ -1,4 +1,4 @@
-# Dane Cronin Portfolio Site
+# Portfolio
 
 ## Purpose
 
