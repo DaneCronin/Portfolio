@@ -2,7 +2,7 @@
 
 ## Purpose
 
-build a responsive and mobile-friendly website with HTML and CSS to create a portfolio with links to work projects.
+build a responsive and mobile-friendly website with HTML and CSS to create a portfolio with links to work projects and contact info.
 
 ## Built With
 
@@ -11,7 +11,7 @@ build a responsive and mobile-friendly website with HTML and CSS to create a por
 
 ## Website
 
-https://danecronin.github.io/portfolio/
+You may view my portfolio [HERE](https://danecronin.github.io/portfolio/).
 
 ### Contribution
 
